@@ -1,10 +1,16 @@
 {
-  "name": "rehype-identity-footnote-containers",
+  "name": "remark-add-classes",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Jason Lengstorf <jason@lengstorf.com> (https://lengstorf.com)",
+  "author": "Josh Kennedy",
   "license": "MIT",
   "dependencies": {
+    "rehype-stringify": "^8.0.0",
+    "remark": "^13.0.0",
+    "remark-parse": "^9.0.0",
+    "remark-rehype": "^8.0.0",
+    "to-vfile": "^6.1.0",
+    "unified": "^9.2.0",
     "unist-util-visit": "^2.0.3"
   }
 }
