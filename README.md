@@ -6,9 +6,17 @@ Adds ability add custom classes to your markdown
 
 TODO
 
-### Usage
+## Usage
 
-In your Rehype config:
+### In your markdown
+
+```md
+# [@ title-class] This is the title
+
+[@ first-p] this is the first paragraph
+```
+
+### In your Rehype config:
 
 ```js
 var vfile = require("to-vfile");
